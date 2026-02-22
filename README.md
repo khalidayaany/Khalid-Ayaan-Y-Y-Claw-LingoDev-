@@ -1,47 +1,46 @@
 # 🌌 Multi-Agentic Researcher Cli Ai agent
 
-> [!NOTE]
-> **Research Expert & Demo Status:** This project is currently in **"Demo Mode"** or **"Dami Mode."** While some features are still in development, it functions as a **Research Expert**, providing high-fidelity data mining and refinement.
+> [!CAUTION]
+> **Status: Demo Mood / Dami Mood**
+> This project is currently in its demonstration phase. While some UI-based features are experimental, the **Research & Data Refinement** engine functions as a true **Expert Researcher**, providing high-fidelity outputs.
 
 ---
 
-## 🏛️ Project Technical Summary (10 Key Points)
+## 🏗️ Technical Blueprint (10 Core Pillars)
 
-### 1. Multi-tasking & AR Agent Roles
-This system is not just a simple AI; it's a **Multi-tasking Development Researcher**. It functions simultaneously as a multi-language **AR Agent**, capable of handling complex research, code analysis, and language translation tasks by decomposing them into automated sub-tasks.
+### 1. Multi-tasking Development Researcher
+This system isn't a basic chatbot; it's a **Multi-tasking Development Researcher** and multi-language **AR Agent**. It handles complex coding and research tasks by recursively decomposing them into automated, manageable roles, ensuring end-to-end completion.
 
-### 2. Powerful Terminal Browser & Memory (Chifer MCP)
-The system integrates a custom **Terminal Browser** that operates directly in the terminal, significantly reducing hardware resource consumption compared to standard browsers. It uses **Chifer MCP (Model Context Protocol)** for high-speed memory and context synchronization.
+### 2. Efficient Terminal Browser & Chifer MCP
+Equipped with a custom **Terminal Browser**, the agent navigates the web with significantly lower overhead than UI-based browsers. For context preservation, it utilizes **Chifer MCP (Model Context Protocol)** for near-instantaneous memory and data synchronization.
 
-### 3. Localization Ecosystem (LINGO.DEV Integration)
-We've integrated the **LINGO.DEV SDK** using a **Local Auth Model**, allowing users to work seamlessly across multiple languages. It also enables direct dynamic localization within your web applications.
+### 3. Localization Ecosystem (LINGO.DEV)
+Powered by the **LINGO.DEV SDK** and a **Local Auth Model**, the agent supports seamless multi-language operations. This allows users to conduct specialized research or automate localization directly within their own web applications.
 
-### 4. Smart Model Governance (Auto Model Selector)
-With support for multiple AI models (Claude, Gemini, Qwen), the agent features an **"Auto Mode Selection"** logic that automatically identifies the best model for any given task to ensure optimal results.
+### 4. Smart Model Orchestration (Auto-Select)
+The agent features an **"Auto Mode Selection"** logic. It dynamically routes tasks to the most efficient AI model (Claude, Gemini, Qwen, etc.) based on the complexity and technical requirements of the prompt.
 
-### 5. Token Efficiency & 300+ Skills Matrix
-The agent is highly token-efficient, consuming far fewer tokens than standard bots. This is achieved through a matrix of **300+ pre-injected AI skills** that allow the agent to perform advanced tasks with minimal token "burn."
+### 5. High Token Efficiency (300+ Skills)
+By utilizing a matrix of **300+ pre-injected AI skills**, the agent performs complex operations with minimal token expenditure (Burn). It delivers "Expert Level" output while keeping token costs significantly lower than generic CLI bots.
 
-### 6. Calculative Terminal Experience
-To prevent terminal clutter and maintain user focus, the system uses a **Calculative Terminal** approach. It displays only essential information and refined logs, ensuring a clean and distraction-free workspace.
+### 6. Calculative Terminal UX
+To maintain developer focus, the agent uses a **Calculative Terminal**. Instead of flooding the screen with redundant logs, it summarizes progress and displays only high-value data, keeping your workspace clean and professional.
 
-### 7. Demo Mode & Research Expertise
-While currently in **"Demo/Dami Mode,"** the system's research capabilities are expert-level. It excels in **Affiliate Research** and high-level data mining, providing a solid foundation even as other features are being finalized.
+### 7. Research Expert (Even in Demo Mood)
+Despite being in **Demo/Dami mod**, the agent excels at deep research. It is particularly optimized for high-performance data mining and affiliate research, providing insights that go beyond standard search results.
 
-### 8. Powerful Data Refinement Engine
-To combat misinformation, the **Data Refinement Engine** cross-verifies fetched data, eliminates "hallucinations" or fake data, and ensures the user receives only verified, high-fidelity output.
+### 8. Data Refinement & Fake Detail Filtering
+Our **Refining System** acts as a filter for the internet’s "noise." It cross-verifies data to eliminate hallucinations and **Fake/Dami Data**, ensuring that the final output delivered to the user is 100% verified and accurate.
 
 ### 9. Modern Tech Stack (Next.js 16 + Bun)
-Built on **Next.js Version 16**, **Bun Runtime**, and **TypeScript**, the system is engineered for maximum speed and security. It leverages the latest in high-performance web and runtime technology.
+The foundation is built on **Next.js Version 16 (API Layer)**, **Bun Runtime**, and **TypeScript**. This ensures the agent is super-powerful and extremely fast, leveraging modern execution environments for high-concurrency tasks.
 
-### 10. Authorized SDK & Future Roadmap
-The **Lingo.dev SDK** handles authorized API communication, facilitating fast-track interaction with internal models. We are actively developing the project, with an **"Advanced AI Gift"** planned for release post-hackathon.
+### 10. Authorized SDK-as-API
+By using the **Lingo.dev SDK** in an authorized mode as an API, the system bypasses traditional latency, allowing the models to respond and execute with super-powered speed and accuracy.
 
 ---
 
-## 🛰️ Real-World Architecture (Hyper-Complex Project Diagram)
-
-This diagram illustrates the internal data flow and code architecture of the system:
+## 🛰️ Project Execution Flow (Real-World Diagram)
 
 ```mermaid
 graph TD
@@ -52,18 +51,18 @@ graph TD
     classDef finish color:#fff,fill:#064e3b,stroke:#10b981,stroke-width:3px;
     classDef alert color:#fff,fill:#450a0a,stroke:#ef4444,stroke-width:2px;
 
-    User([User Task Input]) --> CLI[src/cli.ts - Terminal Interface]
+    User([User CLI Prompt]) --> CLI[src/cli.ts - Terminal Interface]
     
-    subgraph "System Intelligence Core"
+    subgraph "Intelligent Orchestrator"
         CLI --> Ext[Antigravity/antigravity.ts]
-        Ext --> ModelSelector{Auto-Model Selector Handlers}
+        Ext --> ModelSelector{Auto-Model Selector}
         ModelSelector -- "Context Mapping" --> MultiAI[Hybrid Model Grid]
     end
 
-    subgraph "High-Performance Execution Pool"
-        MultiAI --> TermBrowser[Agentic Terminal Browser - Expert Researcher]
-        TermBrowser --> DeepSearch[Recursive Web Mining Feed]
-        DeepSearch --> DataRefiner{Refining & Verification Layer}
+    subgraph "High-Speed Execution Pool"
+        MultiAI --> TermBrowser[Terminal Browser - Research Expert]
+        TermBrowser --> DeepSearch[Recursive Web Mining]
+        DeepSearch --> DataRefiner{Refining & Filtering Layer}
         DataRefiner -- "Delete Hallucinations" --> Shaker[Drop Fake Data]
         DataRefiner -- "Accuracy Guaranteed" --> CleanData[Refined Real Output]
     end
@@ -71,19 +70,19 @@ graph TD
     subgraph "Memory & Context Nexus"
         CleanData --> Chifer[Chifer Local MCP Server]
         Chifer --> FastSync[Vector-Based Context Sync]
-        FastSync --> LingoSDK[LINGO.DEV Auth SDK Integration]
-        LingoSDK --> LocalizationAPI[Lingo.dev Authorized Endpoint]
+        FastSync --> LingoSDK[LINGO.DEV Auth SDK]
+        LingoSDK --> LocalizationAPI[Lingo.dev API Endpoint]
     end
 
     subgraph "UX & Efficiency Layer"
-        LocalizationAPI --> CalcTerminal[Calculative Terminal Visualizer]
-        CalcTerminal --> SkillMonitor{300+ Skills Skillset Watchdog}
+        LocalizationAPI --> CalcTerminal[Calculative Terminal Display]
+        CalcTerminal --> SkillMonitor{300+ Skills Watchdog}
         SkillMonitor -- "Save Tokens" --> FinalOutput([Best High-Quality Delivery])
     end
 
     subgraph "Infrastructure Foundation"
-        NextJS[Next.js v16 Framework] --- BunEngine[Bun Runtime Engine]
-        BunEngine --- TS[TypeScript Security Guard]
+        NextJS[Next.js v16 Foundations] --- BunEngine[Bun Runtime]
+        BunEngine --- TS[TypeScript Logic]
     end
 
     class CLI,Ext,ModelSelector main;
@@ -95,25 +94,34 @@ graph TD
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Getting Started (Interactive CLI)
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This project is an **Interactive CLI Tool** powered by **Bun**. Follow the instructions below to set up and run the Research Expert.
 
-First, run the development server:
+### **1. Integrated SDKs & Core Technologies**
+The project leverages a robust stack of professional SDKs:
+- **LINGO.DEV SDK**: For local authorized multilingual management.
+- **Chifer MCP (Model Context Protocol)**: The core memory engine for high-speed context synchronization.
+- **Vercel AI SDK & Anthropic**: Multi-model reasoning and agentic orchestration.
+- **LangChain Core**: Advanced AI toolchains and reasoning chains.
+- **Codebuff SDK**: Precision file manipulation and coding automation.
+- **Firecrawl SDK**: Deep-web crawling for factual research data.
+- **Browser-Use (CDP Runtime)**: Real-time terminal browser for expert-level research.
+- **Web Tree-Sitter**: High-accuracy code parsing and analysis.
+- **Next.js 16 & Bun**: Framework and high-concurrency runtime foundation.
 
+### **2. Technical Environment Setup**
+Install all dependencies and SDKs by running:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+bun install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### **3. Running the Agent**
+Enter the interactive research session by executing:
+```bash
+bun cli
+```
+Once active, you can type your research objectives or development tasks directly into the shell.
 
 ---
 **Multi-Agentic Researcher Cli Ai agent - Built for Accuracy.**
