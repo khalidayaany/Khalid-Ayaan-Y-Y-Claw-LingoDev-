@@ -1,0 +1,25 @@
+{
+  "name": "Awesome OpenClaw Skills Sources",
+  "updatedBy": "KHALIDAYAAN Y CLI",
+  "sources": [
+    {
+      "id": "awesome-openclaw-skills-sundial",
+      "url": "https://raw.githubusercontent.com/sundial-org/awesome-openclaw-skills/main/README.md",
+      "syncMode": "primary"
+    },
+    {
+      "id": "awesome-openclaw-skills-voltagent",
+      "url": "https://raw.githubusercontent.com/VoltAgent/awesome-openclaw-skills/main/README.md",
+      "syncMode": "fallback"
+    },
+    {
+      "id": "openclaw-skills-registry",
+      "url": "https://raw.githubusercontent.com/openclaw/skills/main/README.md",
+      "syncMode": "fallback"
+    }
+  ],
+  "notes": [
+    "Runtime parser imports skill install-name + description + category where possible.",
+    "Sync from Connect -> Tools -> Skills -> Sync Awesome OpenClaw Catalog."
+  ]
+}

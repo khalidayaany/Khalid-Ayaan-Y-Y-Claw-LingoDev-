@@ -1,0 +1,54 @@
+{
+  "name": "hakathone",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "test": "bun run typecheck",
+    "ci:check": "bun run lint && bun run typecheck && bun run build",
+    "cli": "bun run src/cli.ts"
+  },
+  "dependencies": {
+    "@ai-sdk/anthropic": "^3.0.45",
+    "@codebuff/sdk": "^0.10.6",
+    "@jitl/quickjs-wasmfile-release-sync": "^0.32.0",
+    "@langchain/core": "^1.1.26",
+    "@vscode/tree-sitter-wasm": "^0.3.0",
+    "ai": "^6.0.90",
+    "diff": "^8.0.3",
+    "framer-motion": "^12.34.2",
+    "gray-matter": "^4.0.3",
+    "ignore": "^7.0.5",
+    "langchain": "^1.2.25",
+    "micromatch": "^4.0.8",
+    "next": "16.1.6",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "web-tree-sitter": "^0.26.5",
+    "ws": "^8.19.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "babel-plugin-react-compiler": "1.0.0",
+    "eslint": "^9",
+    "eslint-config-next": "16.1.6",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  },
+  "ignoreScripts": [
+    "sharp",
+    "unrs-resolver"
+  ],
+  "trustedDependencies": [
+    "sharp",
+    "unrs-resolver"
+  ]
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "react-best-practices",
+    "name": "React Best Practices",
+    "description": "React/Next.js performance optimization guidance from Vercel Engineering.",
+    "category": "agent-skills",
+    "triggers": ["react", "nextjs", "performance", "bundle", "rerender"],
+    "tags": ["frontend", "react", "performance"],
+    "installHint": "npx skills add vercel-labs/agent-skills"
+  },
+  {
+    "id": "web-design-guidelines",
+    "name": "Web Design Guidelines",
+    "description": "Web interface best-practice audit for accessibility, UX, and performance.",
+    "category": "agent-skills",
+    "triggers": ["ui", "ux", "a11y", "accessibility", "audit"],
+    "tags": ["frontend", "design", "accessibility"],
+    "installHint": "npx skills add vercel-labs/agent-skills"
+  },
+  {
+    "id": "react-native-guidelines",
+    "name": "React Native Guidelines",
+    "description": "React Native/Expo best practices covering layout, animation, and performance.",
+    "category": "agent-skills",
+    "triggers": ["react native", "expo", "mobile", "ios", "android"],
+    "tags": ["mobile", "react-native"],
+    "installHint": "npx skills add vercel-labs/agent-skills"
+  },
+  {
+    "id": "composition-patterns",
+    "name": "Composition Patterns",
+    "description": "Compound component and composition patterns for scalable React APIs.",
+    "category": "agent-skills",
+    "triggers": ["composition", "compound", "props", "api design"],
+    "tags": ["react", "architecture"],
+    "installHint": "npx skills add vercel-labs/agent-skills"
+  },
+  {
+    "id": "vercel-deploy-claimable",
+    "name": "Vercel Deploy Claimable",
+    "description": "Deploy apps instantly and return preview URL + claim URL.",
+    "category": "agent-skills",
+    "triggers": ["deploy", "vercel", "preview", "production", "launch"],
+    "tags": ["deploy", "devops"],
+    "installHint": "npx skills add vercel-labs/agent-skills"
+  }
+]

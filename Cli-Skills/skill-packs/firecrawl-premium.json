@@ -1,0 +1,46 @@
+[
+  {
+    "id": "firecrawl-premium-scrape",
+    "name": "Firecrawl Premium Scrape",
+    "description": "High-reliability page scrape flow with markdown/html/json + quality checks.",
+    "category": "web-data",
+    "source": "khalidayaany-core",
+    "triggers": ["firecrawl", "scrape", "extract", "structured", "json mode"],
+    "tags": ["scraping", "firecrawl", "web-data"],
+    "priority": 7,
+    "installHint": "Configure Firecrawl API key via /firecrawl set-key"
+  },
+  {
+    "id": "firecrawl-premium-crawl",
+    "name": "Firecrawl Premium Crawl",
+    "description": "Whole-site crawl orchestration with job tracking and source coverage checks.",
+    "category": "web-data",
+    "source": "khalidayaany-core",
+    "triggers": ["crawl", "site crawl", "website", "job id", "coverage"],
+    "tags": ["scraping", "crawler", "firecrawl"],
+    "priority": 6,
+    "installHint": "Use /firecrawl crawl <url> and /firecrawl crawl-status <id>"
+  },
+  {
+    "id": "firecrawl-premium-agent",
+    "name": "Firecrawl Premium Agent",
+    "description": "Agent-based web research with structured final output and source trace.",
+    "category": "web-data",
+    "source": "khalidayaany-core",
+    "triggers": ["agent", "research", "pricing", "compare", "find"],
+    "tags": ["research", "firecrawl", "web-data"],
+    "priority": 6,
+    "installHint": "Use /firecrawl agent <prompt>"
+  },
+  {
+    "id": "firecrawl-premium-map",
+    "name": "Firecrawl Premium Map",
+    "description": "URL discovery and map-first scraping strategy for large sites.",
+    "category": "web-data",
+    "source": "khalidayaany-core",
+    "triggers": ["map", "discover urls", "sitemap", "site links"],
+    "tags": ["crawler", "firecrawl", "discovery"],
+    "priority": 5,
+    "installHint": "Use /firecrawl map <url>"
+  }
+]

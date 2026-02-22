@@ -1,0 +1,4 @@
+Chat-Memory/*.md
+Ai-Memory/*.md
+Agent-Memory/*.md
+!Agent-Memory/README.md

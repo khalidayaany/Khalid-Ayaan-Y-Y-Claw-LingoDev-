@@ -1,0 +1,9 @@
+{
+  "id": "codex-cli-auth",
+  "providers": ["codex-cli"],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {}
+  }
+}

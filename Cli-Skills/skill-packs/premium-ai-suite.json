@@ -1,0 +1,90 @@
+[
+  {
+    "id": "premium-ui-ux-pro-max",
+    "name": "Premium UI/UX Pro Max",
+    "description": "Advanced UI/UX design system skill for premium interface quality and accessibility.",
+    "category": "premium-suite",
+    "source": "khalidayaany-core",
+    "triggers": ["ui", "ux", "ui ux", "design system", "accessibility", "premium design"],
+    "tags": ["ui", "ux", "design", "accessibility", "premium"],
+    "priority": 7,
+    "installHint": "npx -y skills add nextlevelbuilder/ui-ux-pro-max-skill@ui-ux-pro-max -y --agent '*'"
+  },
+  {
+    "id": "premium-claude-frontend-design",
+    "name": "Premium Claude Frontend Design",
+    "description": "Claude-oriented frontend design skill for modern UI architecture and polished UX.",
+    "category": "premium-suite",
+    "source": "khalidayaany-core",
+    "triggers": ["claude", "frontend design", "ui architecture", "design quality"],
+    "tags": ["claude", "frontend", "design", "premium"],
+    "priority": 6,
+    "installHint": "npx -y skills add anthropics/claude-code@frontend-design -y --agent '*'"
+  },
+  {
+    "id": "premium-gemini-api-dev",
+    "name": "Premium Gemini API Dev",
+    "description": "Gemini API engineering skill for integration, architecture, and production patterns.",
+    "category": "premium-suite",
+    "source": "khalidayaany-core",
+    "triggers": ["gemini", "gemini api", "google gemini", "api dev"],
+    "tags": ["gemini", "google", "api", "premium"],
+    "priority": 6,
+    "installHint": "npx -y skills add google-gemini/gemini-skills@gemini-api-dev -y --agent '*'"
+  },
+  {
+    "id": "premium-gemini-code-reviewer",
+    "name": "Premium Gemini Code Reviewer",
+    "description": "Gemini code-review skill focused on robust review criteria and implementation quality.",
+    "category": "premium-suite",
+    "source": "khalidayaany-core",
+    "triggers": ["gemini reviewer", "gemini code review", "review code"],
+    "tags": ["gemini", "review", "quality", "premium"],
+    "priority": 6,
+    "installHint": "npx -y skills add google-gemini/gemini-cli@code-reviewer -y --agent '*'"
+  },
+  {
+    "id": "premium-google-stitch-loop",
+    "name": "Premium Google Stitch Loop",
+    "description": "Google Stitch iterative workflow skill for structured UI/UX build loops.",
+    "category": "premium-suite",
+    "source": "khalidayaany-core",
+    "triggers": ["google stitch", "stitch", "stitch loop", "iterative ui"],
+    "tags": ["stitch", "google", "workflow", "ui", "premium"],
+    "priority": 6,
+    "installHint": "npx -y skills add google-labs-code/stitch-skills@stitch-loop -y --agent '*'"
+  },
+  {
+    "id": "premium-google-stitch-design-md",
+    "name": "Premium Google Stitch Design MD",
+    "description": "Google Stitch design markdown skill for clean design docs and implementation guidance.",
+    "category": "premium-suite",
+    "source": "khalidayaany-core",
+    "triggers": ["stitch design", "design md", "design document", "google stitch design"],
+    "tags": ["stitch", "google", "design", "documentation", "premium"],
+    "priority": 5,
+    "installHint": "npx -y skills add google-labs-code/stitch-skills@design-md -y --agent '*'"
+  },
+  {
+    "id": "premium-google-stitch-react-components",
+    "name": "Premium Google Stitch React Components",
+    "description": "Google Stitch React component skill for reusable component architecture and implementation.",
+    "category": "premium-suite",
+    "source": "khalidayaany-core",
+    "triggers": ["react components", "stitch react", "component system", "google stitch react"],
+    "tags": ["stitch", "google", "react", "components", "premium"],
+    "priority": 6,
+    "installHint": "npx -y skills add google-labs-code/stitch-skills --skill 'react:components' -y --agent '*'"
+  },
+  {
+    "id": "premium-google-stitch-shadcn-ui",
+    "name": "Premium Google Stitch Shadcn UI",
+    "description": "Google Stitch shadcn/ui skill for high-quality component-driven UI delivery.",
+    "category": "premium-suite",
+    "source": "khalidayaany-core",
+    "triggers": ["shadcn", "shadcn ui", "stitch shadcn", "component ui"],
+    "tags": ["stitch", "google", "shadcn", "ui", "premium"],
+    "priority": 5,
+    "installHint": "npx -y skills add google-labs-code/stitch-skills --skill shadcn-ui -y --agent '*'"
+  }
+]
