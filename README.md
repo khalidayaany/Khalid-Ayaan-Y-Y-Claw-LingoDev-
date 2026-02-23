@@ -8,6 +8,7 @@
 ---
 ### This CLI agent uses a browser directly from the terminal. When hosted, it makes work and research easier using a built-in browser.
 This CLI agent can complete browser tasks (such as search, website visits, and data collection) directly from the terminal.
+This CLI agent can use your browser, but it does not open your browser directly. All tasks are performed within the terminal/command line, so you can see the live actions happening right in the terminal. Instead of opening your browser, it automatically manages everything through the terminal.
 
 ## 🏗️ Technical Blueprint (10 Core Pillars)
 
