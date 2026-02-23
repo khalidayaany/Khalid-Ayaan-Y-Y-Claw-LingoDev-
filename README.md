@@ -6,6 +6,7 @@
 <img width="1646" height="1123" alt="Screenshot From 2026-02-23 06-31-35" src="https://github.com/user-attachments/assets/f8a50fc7-d482-4d59-a2ad-d886a380de9b" />
 
 ---
+0.1= Terminal Browser , Advanec Terminal Browser Reachresh
 
 ## 🏗️ Technical Blueprint (10 Core Pillars)
 
