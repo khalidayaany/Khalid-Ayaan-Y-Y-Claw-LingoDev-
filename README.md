@@ -3,6 +3,7 @@
 > [!CAUTION]
 > **Status: Demo Mood / Dami Mood**
 > This project is currently in its demonstration phase. While some UI-based features are experimental, the **Research & Data Refinement** engine functions as a true **Expert Researcher**, providing high-fidelity outputs.
+<img width="1646" height="1123" alt="Screenshot From 2026-02-23 06-31-35" src="https://github.com/user-attachments/assets/f8a50fc7-d482-4d59-a2ad-d886a380de9b" />
 
 ---
 
